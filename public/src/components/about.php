@@ -3,13 +3,14 @@
 </div>
 
 <div class="vision_section pt-5">
-    <div class="mx-auto d-flex gap-4" style="width: 90%;">
+    <div class="mx-auto d-flex gap-4 pb-5" style="width: 95%;">
         <img src="../main/images/about_section/vision.png" class="w-50 h-auto" alt="Vision Image">
         <div class="text-vision">
             <h2 class="fs-1">Our Vision</h2>
-            <p class="fs-4 pt-2 pb-3">is to create a community that balances progress and nature. Bahile Dreamland Estates is committed to delivering quality homes and facilities that enchance the live of ifs residents.</p>
-            <br>
-            <p class="fs-4 pt-2 pb-3">We believe in developing a community that not only provides comfort but also inspires a lifestyle of wellness, security, and opportunity.</p>
+            <div class=""  style="width: 95%;">
+                <p class="fs-5 pt-2 pb-3">is to create a community that balances progress and nature. Bahile Dreamland Estates is committed to delivering quality homes and facilities that enchance the live of ifs residents.</p>
+                <p class="fs-5 pt-2 pb-3">We believe in developing a community that not only provides comfort but also inspires a lifestyle of wellness, security, and opportunity.</p>
+            </div>
             <button class="px-5 py-2 rounded border-none bg-primary text-white ">Read more</button>
         </div>
     </div>

@@ -27,10 +27,10 @@
       <div class="col-6 col-md-3 col-lg-2">
         <p class="fw-bold fs-3">Follow Us</p>
         <div class="d-flex justify-content-center justify-content-md-start gap-3">
-          <a href="#" class="text-white"><img src="../main/images/fb.png" class="img-fluid" alt="Facebook"></a>
-          <a href="#" class="text-white"><img src="../main/images/x.png" class="img-fluid" alt="X"></a>
-          <a href="#" class="text-white"><img src="../main/images/ins.png" class="img-fluid" alt="Instagram"></a>
-          <a href="#" class="text-white"><img src="../main/images/in.png" class="img-fluid" alt="LinkedIn"></a>
+          <a href="#" class="text-white"><img src="../main/images/contact_section/fb.png" class="img-fluid" alt="Facebook"></a>
+          <a href="#" class="text-white"><img src="../main/images/contact_section/x.png" class="img-fluid" alt="X"></a>
+          <a href="#" class="text-white"><img src="../main/images/contact_section/ins.png" class="img-fluid" alt="Instagram"></a>
+          <a href="#" class="text-white"><img src="../main/images/contact_section/in.png" class="img-fluid" alt="LinkedIn"></a>
         </div>
       </div>
     </div>

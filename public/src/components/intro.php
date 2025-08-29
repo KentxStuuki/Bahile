@@ -10,8 +10,8 @@
         </p>
 
         <!-- Search Bar -->
-        <div class="searchbar d-flex justify-content-center py-4 px-3">
-            <div class="position-relative w-100" style="max-width: 500px;">
+        <div class="searchbar d-flex justify-content-center py-4 px-3 mb-2">
+            <div class="position-relative w-100" style="max-width: 670px;">
                 <input type="text" class="form-control border-primary ps-3 pe-5 py-3 rounded-3" placeholder="Search something...">
                 <button class="btn btn-primary position-absolute top-50 end-0 translate-middle-y me-2 px-4 py-2 rounded-2" type="button">
                     Search
@@ -20,69 +20,126 @@
         </div>
     </div>
 </div>
-
-<!-- Services Seperator-->
-<div class="icon-row-wrapper position-relative pt-5">
-    <div class="container-fluid position-absolute top-100 start-50 translate-middle custom-container" style="z-index: 10;">
-    <div class="row text-primary">
-            
-            <div class="col-md-2 offset-md-1 text-center ">
-                <div class="position-relative bg-white rounded shadow-lg pt-5 mb-3 px-2 h-100">
-                    <!-- Floating icon -->
-                    <div class="icon-services position-absolute top-0 start-50 translate-middle" style="">
-                        <img src="../main/images/intro_section/map.png" alt="Map Location" style="width: 40px;">
+<!-- Services Separator - Hidden on tablet & mobile -->
+<div class="d-none d-lg-block">
+    <div class="icon-row-wrapper position-relative pt-5">
+        <div class="container-fluid position-absolute top-50 start-50 translate-middle custom-container" style="z-index: 10;">
+            <div class="row text-primary">
+                <div class="col-md-2 offset-md-1 text-center ">
+                    <div class="position-relative bg-white rounded shadow-lg pt-5 mb-3 px-2 h-100">
+                        <div class="icon-services position-absolute top-0 start-50 translate-middle">
+                            <img src="../main/images/intro_section/map.png" alt="Map Location" style="width: 40px;">
+                        </div>
+                        <p class="mb-0 fs-6">Prime location in Bahile, Puerto Princesa City, Palawan</p>
                     </div>
-                    <!-- Text -->
-                    <p class="mb-0 fs-6">Prime location in Bahile, Puerto Princesa City, Palawan</p>
+                </div>
+
+                <div class="col-md-2 text-center">
+                    <div class="position-relative bg-white rounded shadow-lg pt-5 mb-3 px-3 h-100">
+                        <div class="icon-services position-absolute top-0 start-50 translate-middle">
+                            <img src="../main/images/intro_section/secure.png" alt="Secure" style="width: 40px;">
+                        </div>
+                        <p class="mb-0 fs-6">Safe, secure, and family-friendly environment</p>
+                    </div>
+                </div>
+
+                <div class="col-md-2 text-center">
+                    <div class="position-relative bg-white rounded shadow-lg pt-5  mb-3 px-3 h-100">
+                        <div class="icon-services position-absolute top-0 start-50 translate-middle">
+                            <img src="../main/images/intro_section/school.png" alt="School" style="width: 40px;">
+                        </div>
+                        <p class="mb-0 fs-6">Accessible to schools, health centers, and commercial hubs</p>
+                    </div>
+                </div>
+
+                <div class="col-md-2 text-center">
+                    <div class="position-relative bg-white rounded shadow-lg pt-5  mb-3 px-3 h-100">
+                        <div class="icon-services position-absolute top-0 start-50 translate-middle">
+                            <img src="../main/images/intro_section/cycle.png" alt="Cycle" style="width: 40px;">
+                        </div>
+                        <p class="mb-0 fs-6">Surrounded by lush natural scenery and fresh air</p>
+                    </div>
+                </div>
+
+                <div class="col-md-2 text-center">
+                    <div class="position-relative bg-white rounded shadow-lg pt-5  mb-3 px-3 h-100">
+                        <div class="icon-services position-absolute top-0 start-50 translate-middle">
+                            <img src="../main/images/intro_section/rating.png" alt="Rating" style="width: 40px;">
+                        </div>
+                        <p class="mb-0 fs-6">Designed for long-term value and investment growth</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Services Separator - Visible only on tablet & mobile -->
+<div class="d-block d-lg-none">
+    <div class="pt-4 px-3">
+        <div class="container">
+            <div class="row text-primary py-2">
+                <!-- Card 1 -->
+                <div class="col-12 my-5">
+                    <div class="bg-white rounded shadow-lg pt-5 px-3 h-100 position-relative">
+                        <div class="icon-services position-absolute top-0 start-50 translate-middle">
+                            <img src="../main/images/intro_section/map.png" alt="Map Location" style="width: 40px;">
+                        </div>
+                        <p class="mb-4 fs-6 text-center">
+                            Prime location in Bahile, Puerto Princesa City, Palawan
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-12 my-5">
+                    <div class="bg-white rounded shadow-lg pt-5 px-3 h-100 position-relative">
+                        <div class="icon-services position-absolute top-0 start-50 translate-middle">
+                            <img src="../main/images/intro_section/secure.png" alt="Secure" style="width: 40px;">
+                        </div>
+                        <p class="mb-4 fs-6 text-center">
+                            Safe, secure, and family-friendly environment
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-12 my-5">
+                    <div class="bg-white rounded shadow-lg pt-5 px-3 h-100 position-relative">
+                        <div class="icon-services position-absolute top-0 start-50 translate-middle">
+                            <img src="../main/images/intro_section/school.png" alt="School" style="width: 40px;">
+                        </div>
+                        <p class="mb-4 fs-6 text-center">
+                            Accessible to schools, health centers, and commercial hubs
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="col-12 my-5">
+                    <div class="bg-white rounded shadow-lg pt-5 px-3 h-100 position-relative">
+                        <div class="icon-services position-absolute top-0 start-50 translate-middle">
+                            <img src="../main/images/intro_section/cycle.png" alt="Cycle" style="width: 40px;">
+                        </div>
+                        <p class="mb-4 fs-6 text-center">
+                            Surrounded by lush natural scenery and fresh air
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="col-12 my-5">
+                    <div class="bg-white rounded shadow-lg pt-5 px-3 h-100 position-relative">
+                        <div class="icon-services position-absolute top-0 start-50 translate-middle">
+                            <img src="../main/images/intro_section/rating.png" alt="Rating" style="width: 40px;">
+                        </div>
+                        <p class="mb-4 fs-6 text-center">
+                            Designed for long-term value and investment growth
+                        </p>
+                    </div>
                 </div>
             </div>
-
-            <div class="col-md-2 text-center">
-                <div class="position-relative bg-white rounded shadow-lg pt-5 mb-3 px-3 h-100">
-                    <!-- Floating icon -->
-                    <div class="icon-services position-absolute top-0 start-50 translate-middle" style="">
-                        <img src="../main/images/intro_section/secure.png" alt="Secure" style="width: 40px;">
-                    </div>
-                    <!-- Text -->
-                    <p class="mb-0 fs-6">Safe, secure, and family-friendly environment</p>
-                </div>
-            </div>
-
-
-            <div class="col-md-2 text-center">
-                <div class="position-relative bg-white rounded shadow-lg pt-5  mb-3 px-3 h-100">
-                    <!-- Floating icon -->
-                    <div class="icon-services position-absolute top-0 start-50 translate-middle" style="">
-                        <img src="../main/images/intro_section/school.png" alt="School" style="width: 40px;">
-                    </div>
-                    <!-- Text -->
-                    <p class="mb-0 fs-6">Accessible to schools, health centers, and commercial hubs</p>
-                </div>
-            </div>
-
-
-            <div class="col-md-2 text-center">
-                <div class="position-relative bg-white rounded shadow-lg pt-5  mb-3 px-3 h-100">
-                    <!-- Floating icon -->
-                    <div class="icon-services position-absolute top-0 start-50 translate-middle" style="">
-                        <img src="../main/images/intro_section/cycle.png" alt="Cycle" style="width: 40px;">
-                    </div>
-                    <!-- Text -->
-                    <p class="mb-0 fs-6">Surrounded by lush natural scenery and fresh air</p>
-                </div>
-            </div>
-
-            <div class="col-md-2 text-center">
-                <div class="position-relative bg-white rounded shadow-lg pt-5  mb-3 px-3 h-100">
-                    <!-- Floating icon -->
-                    <div class="icon-services position-absolute top-0 start-50 translate-middle" style="">
-                        <img src="../main/images/intro_section/rating.png" alt="Rating" style="width: 40px;">
-                    </div>
-                    <!-- Text -->
-                    <p class="mb-0 fs-6">Designed for long-term value and investment growth</p>
-                </div>
-            </div>
-
         </div>
     </div>
 </div>

@@ -32,14 +32,22 @@
         <?php include 'components/about.php'?>
     </section>
 
-      <section id="project-components" class="mt-5 pt-5">
+    <!-- Project Components Section -->
+    <section id="project-components" class="mt-5 pt-5">
         <?php include 'components/project_components.php'; ?>
     </section>
 
+    <!-- Feedback Section -->
+    <section id="feedback" class="mt-5 pt-5">
+        <?php include 'components/feedback_section.php'; ?>
+    </section>
+
+    <!-- Contact Us Section -->
     <section>
         <?php include 'components/contactus.php'; ?>
     </section>
 
+    <!-- Footer Section -->
     <section>
         <?php include 'components/footer.php'; ?>
     </section>

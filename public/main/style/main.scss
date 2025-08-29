@@ -97,10 +97,7 @@ $headings-font-family: "Times New Roman", Times, serif;
 	background-position: center;
 	background-repeat: no-repeat;
 	width: 100%;
-	height: 65vh;
 }
-
-
 
 .text-vision{
 	color: $primary;
@@ -132,7 +129,7 @@ $headings-font-family: "Times New Roman", Times, serif;
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('../images/feedback.png') no-repeat center center/cover;
+    background: url('../images/contact_section/feedback.png') no-repeat center center/cover;
     opacity: 25; 
     z-index: 1;
 }
@@ -151,17 +148,17 @@ $headings-font-family: "Times New Roman", Times, serif;
   }
 
 /* Mobile-friendly styles */
-@media (max-width: 767.98px) {
+@media (max-width: 980.98px) {
   .vision_section .mx-auto {
     flex-direction: column; /* Stack vertically */
     align-items: center;
-    width: 95%;
     gap: 1.5rem;
+    width: 100%;
   }
 
   .vision_section img {
     width: 100% !important; /* Full width on small screens */
-    height: auto;
+    height: 100vh;
     max-width: 400px; /* Optional max width */
   }
 

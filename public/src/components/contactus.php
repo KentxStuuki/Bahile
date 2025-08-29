@@ -87,7 +87,7 @@
             <div class="card bg-primary text-white rounded-4 shadow-sm text-center h-100">
             <div class="card-body">
                 <div class="fs-1">
-                <img src="../main/images/phone.png" alt="" class="img-fluid" style="max-width: 60px;">
+                <img src="../main/images/contact_section/phone.png" alt="" class="img-fluid" style="max-width: 60px;">
                 </div>
                 <p class="fw-bold mt-3 fs-5 mb-1">Phone Number</p>
                 <p class="mb-0 fs-5">0912 345 6789</p>
@@ -100,7 +100,7 @@
             <div class="card bg-primary text-white rounded-4 shadow-sm text-center h-100">
             <div class="card-body">
                 <div class="fs-1">
-                <img src="../main/images/email.png" alt="" class="img-fluid py-3" style="max-width: 60px;">
+                <img src="../main/images/contact_section/email.png" alt="" class="img-fluid py-3" style="max-width: 60px;">
                 </div>
                 <p class="fw-bold fs-5 mb-1">Email Address</p>
                 <p class="mb-0 fs-5">bahiledreamlandestate@gmail.com</p>
@@ -113,7 +113,7 @@
             <div class="card bg-primary text-white rounded-4 shadow-sm text-center h-100">
             <div class="card-body">
                 <div class="fs-1">
-                <img src="../main/images/address.png" alt="" class="img-fluid" style="max-width: 57px;">
+                <img src="../main/images/contact_section/address.png" alt="" class="img-fluid" style="max-width: 57px;">
                 </div>
                 <p class="fw-bold fs-5 mb-1">Address</p>
                 <p class="mb-0 fs-5">Bahile, Puerto Princesa City, Palawan</p>
