@@ -38,6 +38,11 @@
       <section id="project-components" class="mt-5 pt-5">
         <?php include 'components/project_components.php'; ?>
     </section>
+
+      <section id="feedback" class="mt-5 pt-5">
+        <?php include 'components/feedback.php'; ?>
+    </section>
+    
     <section>
         <?php include 'components/contactus.php'; ?>
     </section>

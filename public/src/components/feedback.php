@@ -13,7 +13,7 @@
 </head>
 <body>
 
-<section class="py-5" 
+<section class="py-5 feedback" 
   style="background: url('../main/images/feedback_section/feedback_background.jpg') no-repeat center center/cover;
   width: 100%;">
   
