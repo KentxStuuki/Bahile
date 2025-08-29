@@ -4,7 +4,16 @@ $primary: #3E4095;
 $secondary: #00A859;
 
 // Include any default variable overrides here (though functions won’t be available)
-@import  "../../../public/node_modules/bootstrap/scss/bootstrap.scss";
+// _custom.scss
+$primary: #3E4095;
+$secondary: #00A859;
+$font-family-sans-serif: "Poppins", sans-serif;
+$font-family-sans-serif: "Poppins", sans-serif;
+$font-family-base: $font-family-sans-serif;
+$headings-font-family: "Times New Roman", Times, serif;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
 .intro_section{
