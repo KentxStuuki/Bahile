@@ -13,5 +13,5 @@
             <button class="px-5 py-2 rounded border-none bg-primary text-white ">Read more</button>
         </div>
     </div>
-    <div class="vision-line"></div>
+    <div class="vision-line mb-5"></div>
 </div>

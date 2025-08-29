@@ -18,15 +18,7 @@
     
 </head>
 <body>
-    <section id="project-components">
-        <?php include 'project_components.php'; ?>
-    </section>
-    <section>
-        <?php include 'contactus.php'; ?>
-    </section>
-    <section>
-        <?php include 'footer.php'; ?>
-    </section>
+  
     <!-- Navbar -->
     <?php include 'components/navbar.php'?>
     
@@ -36,8 +28,20 @@
     </section>
 
     <!-- About Section -->
-    <section id="About">
+    <section id="About" class="mb-5">
         <?php include 'components/about.php'?>
+    </section>
+
+      <section id="project-components" class="mt-5 pt-5">
+        <?php include 'components/project_components.php'; ?>
+    </section>
+
+    <section>
+        <?php include 'components/contactus.php'; ?>
+    </section>
+
+    <section>
+        <?php include 'components/footer.php'; ?>
     </section>
 
 </body>

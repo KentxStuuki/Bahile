@@ -1,28 +1,3 @@
-<!-- Style -->
- <style>
-.feedback-card {
-    position: relative;
-    overflow: hidden; 
-}
-
-.feedback-card::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url('../main/images/feedback.png') no-repeat center center/cover;
-    opacity: 25; 
-    z-index: 1;
-}
-
-.feedback-card .card-body {
-    position: relative;
-    z-index: 2;
-}
-</style>
-
 <section>
     <div class="container mt-5">
         <div class="d-flex flex-column flex-lg-row gap-5 mt-4 ps-5 pe-5">
