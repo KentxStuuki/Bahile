@@ -1,62 +1,145 @@
 // Custom.scss
 // Option A: Include all of Bootstrap
+$primary: #3E4095;
+$secondary: #00A859;
 
 // Include any default variable overrides here (though functions won’t be available)
-$primary: red;
-
-@use "../../../public/node_modules/bootstrap/scss/bootstrap.scss";
+@import  "../../../public/node_modules/bootstrap/scss/bootstrap.scss";
 
 // Then add additional custom code here
-
-// Website CSS Reseter
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+.intro_section{
+	background-image: url('../images/intro_section/intro_bg.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
 }
 
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+.searchbar input::placeholder {
+	opacity: 0.5; 
+	color: #6c757d;
 }
 
-body {
-	line-height: 1;
+.icon-row-wrapper {
+    height: 0; /* prevents spacing issue */
+    margin-bottom: 100px; /* adjust if needed */
 }
 
-ol, ul {
-	list-style: none;
+.icon-services{
+	width: 80px; 
+	height: 80px;
+	background: white; 
+	border-radius: 50%; 
+	border: 3px solid $secondary; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
 }
 
-blockquote, q {
-	quotes: none;
+.custom-container {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  width: 100% !important;
+  max-width: 150% !important;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+.text-separator {
+    position: relative;
+    display: inline-block;
+    color: $primary; 
+    margin: 20px 0;
 }
 
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+.text-separator::before,
+.text-separator::after {
+    content: "";
+    position: absolute;
+    width: 460px;
+	top: 50%;
+	transform: translateY(-50%);
+    height: 10px;
+    background-color: $primary;
+}
+
+.text-separator::before {
+    left: -480px;
+}
+
+.text-separator::after {
+    right: -480px;
 }
 
 
+.about_section{
+	background-image: url('../images/about_section/about_bg.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 25vh;
+}
+
+
+.vision_section{
+	background-image: url('../images/about_section/vision_bg.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 60vh;
+}
+
+.text-vision{
+	color: $primary;
+}
+
+.vision-line {
+	height: 10px;        
+	background-color: $primary; 
+	width: 100%;         
+	margin: 20px 0;     
+}
+
+.vision_section .mx-auto {
+  display: flex;
+  gap: 1rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+
+/* Mobile-friendly styles */
+@media (max-width: 767.98px) {
+  .vision_section .mx-auto {
+    flex-direction: column; /* Stack vertically */
+    align-items: center;
+    width: 95%;
+    gap: 1.5rem;
+  }
+
+  .vision_section img {
+    width: 100% !important; /* Full width on small screens */
+    height: auto;
+    max-width: 400px; /* Optional max width */
+  }
+
+  .text-vision {
+    text-align: center; /* Center text */
+  }
+
+  .text-vision h2 {
+    font-size: 2rem; /* Smaller heading */
+  }
+
+  .text-vision p {
+    font-size: 1rem; /* Adjust paragraph size */
+  }
+
+  .text-vision button {
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+  }
+}
