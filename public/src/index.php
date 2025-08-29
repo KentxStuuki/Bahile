@@ -20,23 +20,23 @@
     <title>Bahile</title>
     
 </head>
-<body>
-  
+<body data-bs-spy="scroll" data-bs-target="#nav-tabs" data-bs-offset="0" data-bs-smooth-scroll="true" tabindex="0">
     <!-- Navbar -->
-    <?php include 'components/navbar.php'?>
-    
+    <section class="sticky-top bg-white">
+        <?php include 'components/navbar.php'?>
+    </section>
     <!-- Introduction Section -->
     <section id="intro" style="overflow: hidden;">
         <?php include 'components/intro.php'?>
     </section>
 
     <!-- About Section -->
-    <section id="About" class="mb-5">
+    <section id="about" class="mb-5">
         <?php include 'components/about.php'?>
     </section>
 
     <!-- Project Components Section -->
-    <section id="project-components" class="mt-5 pt-5">
+    <section id="project_components" class="mt-5 pt-5">
         <?php include 'components/project_components.php'; ?>
     </section>
     
@@ -46,7 +46,7 @@
     </section>
 
     <!-- Contact Us Section -->
-    <section>
+    <section id="contact">
         <?php include 'components/contactus.php'; ?>
     </section>
 

@@ -11981,6 +11981,15 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.nav-pills .nav-link {
+  color: var(--bs-primary);
+}
+
+.nav-pills .nav-link.active {
+  color: #fff;
+  background-color: var(--bs-primary);
+}
+
 .intro_section {
   background-image: url("../images/intro_section/intro_bg.jpg");
   background-size: cover;
@@ -12142,4 +12151,4 @@ textarea.form-control-lg {
     padding: 0.5rem 2rem;
     font-size: 1rem;
   }
-}/*# sourceMappingURL=main.css.map */
+}

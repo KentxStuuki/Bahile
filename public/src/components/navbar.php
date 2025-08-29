@@ -7,27 +7,27 @@
     </a>
 
     <!-- Toggler / Hamburger -->
-    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+    <button class="navbar-toggler ms-auto mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <!-- Collapsible content -->
     <div class="collapse navbar-collapse" id="navbarMenu">
-      <ul class="navbar-nav ms-auto gap-md-4 text-center">
+      <ul class="navbar-nav ms-auto gap-md-4 text-center nav-pills">
         <li class="nav-item">
-          <a class="nav-link bg-primary text-white rounded px-3 py-2" href="#intro">Project Profile</a>
+          <a class="nav-link" href="#intro">Project Profile</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Project Components</a>
+          <a class="nav-link" href="#project_components">Project Components</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Feedback</a>
+          <a class="nav-link" href="#feedback">Feedback</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact Us</a>
+          <a class="nav-link" href="#contact">Contact Us</a>
         </li>
       </ul>
     </div>
