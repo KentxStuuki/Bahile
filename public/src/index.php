@@ -21,17 +21,30 @@
     
 </head>
 <body>
-    <section id="project-components">
-        <?php include 'project_components.php'; ?>
+  
+    <!-- Navbar -->
+    <?php include 'components/navbar.php'?>
+    
+    <!-- Introduction Section -->
+    <section id="intro" style="overflow: hidden;">
+        <?php include 'components/intro.php'?>
+    </section>
+
+    <!-- About Section -->
+    <section id="About" class="mb-5">
+        <?php include 'components/about.php'?>
+    </section>
+
+      <section id="project-components" class="mt-5 pt-5">
+        <?php include 'components/project_components.php'; ?>
     </section>
     <section>
-        <?php include 'feedback_section.php'; ?>
+        <?php include 'components/contactus.php'; ?>
     </section>
+
     <section>
-        <?php include 'contactus.php'; ?>
+        <?php include 'components/footer.php'; ?>
     </section>
-    <section>
-        <?php include 'footer.php'; ?>
-    </section>
+
 </body>
 </html>
