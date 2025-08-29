@@ -27,7 +27,7 @@
     <div class="container mt-5">
         <div class="d-flex flex-column flex-lg-row gap-5 mt-4 ps-5 pe-5">
             <!-- Contact Form -->
-            <div class="flex-fill">
+            <div class="flex-fill text-primary">
                 <h1>Contact Us</h1>
                 <p class="fs-4">
                     We'd love to hear from you! Whether you're interested in investing, purchasing a lot, or simply learning more about Bahile Dreamland Estates, feel free to reach out:
@@ -105,44 +105,47 @@
   <div class="d-flex gap-3 text-center ps-5 pe-5 w-100">
     
 
-    <div class="w-50">
-        <div class="card bg-primary text-white rounded-4 shadow-sm text-center ps-4 pe-4 w-auto">
+    <div class="d-flex gap-3 flex-wrap w-100">
+        <!-- Phone Card -->
+        <div class="flex-fill">
+            <div class="card bg-primary text-white rounded-4 shadow-sm text-center h-100">
             <div class="card-body">
                 <div class="fs-1">
-                    <img src="../main/images/phone.png" alt="" class="img-fluid" style="max-width: 60px;">
+                <img src="../main/images/phone.png" alt="" class="img-fluid" style="max-width: 60px;">
                 </div>
-                <h5 class="fw-bold mt-3">Phone Number</h5>
+                <p class="fw-bold mt-3 fs-5">Phone Number</p>
                 <p class="mb-0 fs-5">0912 345 6789</p>
+            </div>
+            </div>
+        </div>
+
+        <!-- Email Card -->
+        <div class="flex-fill">
+            <div class="card bg-primary text-white rounded-4 shadow-sm text-center h-100">
+            <div class="card-body">
+                <div class="fs-1">
+                <img src="../main/images/email.png" alt="" class="img-fluid py-3" style="max-width: 60px;">
                 </div>
+                <p class="fw-bold fs-5">Email Address</p>
+                <p class="mb-0 fs-5">bahiledreamlandestate@gmail.com</p>
+            </div>
+            </div>
+        </div>
+
+        <!-- Address Card -->
+        <div class="flex-fill">
+            <div class="card bg-primary text-white rounded-4 shadow-sm text-center h-100">
+            <div class="card-body">
+                <div class="fs-1">
+                <img src="../main/images/address.png" alt="" class="img-fluid" style="max-width: 57px;">
+                </div>
+                <p class="fw-bold fs-5">Address</p>
+                <p class="mb-0 fs-5">Bahile, Puerto Princesa City, Palawan</p>
+            </div>
+            </div>
         </div>
     </div>
 
-
-
-    <div class="w-100">
-      <div class="card bg-primary text-white rounded-4 shadow-sm ps-6 pe-6 w-auto">
-        <div class="card-body">
-          <div class="fs-1">
-            <img src="../main/images/email.png" alt="" class="img-fluid py-3" style="max-width: 60px;">
-          </div>
-          <h5 class="fw-bold">Email Address</h5>
-          <p class="mb-0 fs-5">bahiledreamlandestate@gmail.com</p>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="w-100">
-      <div class="card bg-primary text-white rounded-4 shadow-sm w-auto">
-        <div class="card-body">
-          <div class="fs-1">
-            <img src="../main/images/address.png" alt="" class="img-fluid pb-2" style="max-width: 57px;">
-          </div>
-          <h5 class="fw-bold">Address</h5>
-          <p class="mb-0 fs-5">Bahile, Puerto Princesa City, Palawan</p>
-        </div>
-      </div>
-    </div>
 
   </div>
 </section>
@@ -154,7 +157,7 @@
 
       <!-- Left -->
       <div class="col-12 col-md-6 col-lg-7">
-        <h4 class="fw-bold fs-3">Bahile Dreamland Estates</h4>
+        <p class="fw-bold fs-3">Bahile Dreamland Estates</p>
         <p class="fs-4 mb-0">
           Bahile Dreamland Estates is a master-planned residential community in Puerto Princesa, Palawan,
           offering secure, sustainable, and nature-inspired living for families and investors.
@@ -163,7 +166,7 @@
 
       <!-- Quick Links -->
       <div class="col-6 col-md-3 col-lg-3">
-        <h5 class="fw-bold fs-3">Quick Links</h5>
+        <p class="fw-bold fs-3">Quick Links</p>
         <ul class="list-unstyled fs-4 mb-0">
           <li><a href="#" class="text-white text-decoration-none">Project Profile</a></li>
           <li><a href="#" class="text-white text-decoration-none">About</a></li>
@@ -175,7 +178,7 @@
 
       <!-- Follow Us -->
       <div class="col-6 col-md-3 col-lg-2">
-        <h5 class="fw-bold fs-3">Follow Us</h5>
+        <p class="fw-bold fs-3">Follow Us</p>
         <div class="d-flex justify-content-center justify-content-md-start gap-3">
           <a href="#" class="text-white"><img src="../main/images/fb.png" class="img-fluid" alt="Facebook"></a>
           <a href="#" class="text-white"><img src="../main/images/x.png" class="img-fluid" alt="X"></a>
