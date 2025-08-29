@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1",
     "jquery": "^3.7.1",
     "owl.carousel": "^2.3.4"
   }
