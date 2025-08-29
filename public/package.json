@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.3.8"
+    "bootstrap": "^5.3.8",
+    "jquery": "^3.7.1",
+    "owl.carousel": "^2.3.4"
   }
 }
