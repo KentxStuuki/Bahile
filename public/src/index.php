@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="../../public/main/style/main.css">
     <link rel="stylesheet" href="../../public/node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="../../public/node_modules/owl.carousel/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../../public/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+
 
     <!-- Java Script Connection -->
     <script src="../../public/main/scripts/bootstrap.bundle.min.js"></script> 
@@ -20,6 +23,9 @@
 <body>
     <section id="project-components">
         <?php include 'project_components.php'; ?>
+    </section>
+    <section>
+        <?php include 'feedback_section.php'; ?>
     </section>
     <section>
         <?php include 'contactus.php'; ?>

@@ -18,10 +18,10 @@
   width: 100%;">
   
   <!-- Header Card -->
-<div class="container my-4">
+<div class="container">
   <div class="row justify-content-center">
-    <div class="col-lg-9 col-sm-12 col-md-8">
-      <div class="card shadow-lg rounded-4 px-4 py-3 text-center" style="color:#3E4095">
+    <div class="col-lg-9 col-sm-12 col-md-9">
+      <div class="card shadow-lg rounded-4 px-2 py-3 text-center" style="color:#3E4095">
         <h2 class="fw-semibold display-5">Feedback</h2>
         <p class="fs-4 mb-0">
           Your thoughts and experiences that help us improve our community and services.
@@ -48,12 +48,12 @@
            alt="Mark Alvarez">
       
       <!-- Stars -->
-      <div class="text-warning">
-        <i class="fas fa-star me-1"></i>
-        <i class="fas fa-star me-1"></i>
-        <i class="fas fa-star me-1"></i>
-        <i class="fas fa-star me-1"></i>
-        <i class="fas fa-star me-1"></i>
+     <div class="text-warning">
+        <i class="bi bi-star-fill me-1"></i>
+        <i class="bi bi-star-fill me-1"></i>
+        <i class="bi bi-star-fill me-1"></i>
+        <i class="bi bi-star-fill me-1"></i>
+        <i class="bi bi-star-fill me-1"></i>
       </div>
     </div>
 
@@ -79,13 +79,12 @@
            style="width:130px;height:130px;margin-top:-90px;"
            alt="Mark Alvarez">
       
-      <!-- Stars -->
       <div class="text-warning">
-        <i class="fas fa-star me-1"></i>
-        <i class="fas fa-star me-1"></i>
-        <i class="fas fa-star me-1"></i>
-        <i class="fas fa-star me-1"></i>
-        <i class="fas fa-star me-1"></i>
+        <i class="bi bi-star-fill me-1"></i>
+        <i class="bi bi-star-fill me-1"></i>
+        <i class="bi bi-star-fill me-1"></i>
+        <i class="bi bi-star-fill me-1"></i>
+        <i class="bi bi-star-fill me-1"></i>
       </div>
     </div>
 
@@ -110,13 +109,12 @@
            style="width:130px;height: 130px;margin-top:-90px;"
            alt="Mark Alvarez">
       
-      <!-- Stars -->
       <div class="text-warning">
-        <i class="fas fa-star me-1"></i>
-        <i class="fas fa-star me-1"></i>
-        <i class="fas fa-star me-1"></i>
-        <i class="fas fa-star me-1"></i>
-        <i class="fas fa-star me-1"></i>
+        <i class="bi bi-star-fill me-1"></i>
+        <i class="bi bi-star-fill me-1"></i>
+        <i class="bi bi-star-fill me-1"></i>
+        <i class="bi bi-star-fill me-1"></i>
+        <i class="bi bi-star-fill me-1"></i>
       </div>
     </div>
 
