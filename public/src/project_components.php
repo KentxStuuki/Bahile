@@ -11,12 +11,14 @@
     projContent.innerHTML = `
         <div class="owl-carousel owl-theme">
             ${features.map(feature => `
-                <div class="item p-4">
+                <div class="item p-4 d-flex flex-column justify-content-between" style="height: 500px;">
+                  <div>
                     <img src="${feature.imgpath}" 
                         alt="${feature.title}" 
                         class="mx-auto mb-4 h-auto rounded-xl object-cover">
                     <p class="fw-bolder mb-2 fs-5 mx-2">${feature.title}</p>
-                    <p class="mb-5 fs-5 mx-2">${feature.desc}</p>
+                    <p class="fs-5 mx-2">${feature.desc}</p>
+                  </div>
                     <div class="text-center px-4">
                         <button id="${feature.buttonId}" class="btn btn-primary w-100 p-2 text-center mb-2 ">View all Details</button>
                     </div>

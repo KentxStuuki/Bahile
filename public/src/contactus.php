@@ -29,7 +29,7 @@
             <!-- Contact Form -->
             <div class="flex-fill text-primary">
                 <h1>Contact Us</h1>
-                <p class="fs-4">
+                <p class="fs-5">
                     We'd love to hear from you! Whether you're interested in investing, purchasing a lot, or simply learning more about Bahile Dreamland Estates, feel free to reach out:
                 </p>
                 <form class="row g-3">
@@ -113,7 +113,7 @@
                 <div class="fs-1">
                 <img src="../main/images/phone.png" alt="" class="img-fluid" style="max-width: 60px;">
                 </div>
-                <p class="fw-bold mt-3 fs-5">Phone Number</p>
+                <p class="fw-bold mt-3 fs-5 mb-1">Phone Number</p>
                 <p class="mb-0 fs-5">0912 345 6789</p>
             </div>
             </div>
@@ -126,7 +126,7 @@
                 <div class="fs-1">
                 <img src="../main/images/email.png" alt="" class="img-fluid py-3" style="max-width: 60px;">
                 </div>
-                <p class="fw-bold fs-5">Email Address</p>
+                <p class="fw-bold fs-5 mb-1">Email Address</p>
                 <p class="mb-0 fs-5">bahiledreamlandestate@gmail.com</p>
             </div>
             </div>
@@ -139,7 +139,7 @@
                 <div class="fs-1">
                 <img src="../main/images/address.png" alt="" class="img-fluid" style="max-width: 57px;">
                 </div>
-                <p class="fw-bold fs-5">Address</p>
+                <p class="fw-bold fs-5 mb-1">Address</p>
                 <p class="mb-0 fs-5">Bahile, Puerto Princesa City, Palawan</p>
             </div>
             </div>
@@ -158,7 +158,7 @@
       <!-- Left -->
       <div class="col-12 col-md-6 col-lg-7">
         <p class="fw-bold fs-3">Bahile Dreamland Estates</p>
-        <p class="fs-4 mb-0">
+        <p class="fs-5 mb-0">
           Bahile Dreamland Estates is a master-planned residential community in Puerto Princesa, Palawan,
           offering secure, sustainable, and nature-inspired living for families and investors.
         </p>
@@ -167,7 +167,7 @@
       <!-- Quick Links -->
       <div class="col-6 col-md-3 col-lg-3">
         <p class="fw-bold fs-3">Quick Links</p>
-        <ul class="list-unstyled fs-4 mb-0">
+        <ul class="list-unstyled fs-5 mb-0">
           <li><a href="#" class="text-white text-decoration-none">Project Profile</a></li>
           <li><a href="#" class="text-white text-decoration-none">About</a></li>
           <li><a href="#" class="text-white text-decoration-none">Project Components</a></li>
@@ -190,7 +190,7 @@
 
     </div>
   </div>
-  <div class="text-center mt-3 pb-3 bg-white text-dark py-3">
-    <small>©2025 Bahile Dreamland Estates All Rights Reserved.</small>
+  <div class="text-center mt-3 pb-3 bg-white text-primary py-3">
+    <small class="fs-5">©2025 Bahile Dreamland Estates All Rights Reserved.</small>
   </div>
 </footer>
