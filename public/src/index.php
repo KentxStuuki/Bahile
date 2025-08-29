@@ -9,10 +9,12 @@
 
     <!-- Java Script Connection -->
     <script src="../../public/main/scripts/bootstrap.bundle.min.js"></script> 
-
     <title>Bahile</title>
+    
 </head>
 <body>
-    
+    <section>
+        <?php include 'contactus.php'; ?>
+    </section>
 </body>
 </html>
