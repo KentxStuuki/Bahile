@@ -20,8 +20,12 @@
 <body>
     <section id="project-components">
         <?php include 'project_components.php'; ?>
-    </section><section>
+    </section>
+    <section>
         <?php include 'contactus.php'; ?>
+    </section>
+    <section>
+        <?php include 'footer.php'; ?>
     </section>
 </body>
 </html>
