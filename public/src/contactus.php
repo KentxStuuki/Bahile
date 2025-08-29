@@ -78,14 +78,15 @@
                                 <input type="text" class="form-control" id="feedbackProfession" placeholder="Profession">
                             </div>
                             <!-- istarzz -->
-                            <div class="mb-3">
-                                <label class="form-label d-block">Rate:
-                                        <span class="fs-3 text-white" role="button">★</span>
-                                        <span class="fs-3 text-white" role="button">★</span>
-                                        <span class="fs-3 text-white" role="button">★</span>
-                                        <span class="fs-3 text-white" role="button">★</span>
-                                        <span class="fs-3 text-white" role="button">★</span>
-                                </label>
+                            <div class="mb-3 d-flex align-items-center px-2">
+                                <p class="form-label d-block py-auto my-auto">Rate:</p>
+                                <div class="d-flex justify-content-between align-items-center w-100 ms-4">
+                                    <span class="fs-3 text-white" role="button">★</span>
+                                    <span class="fs-3 text-white" role="button">★</span>
+                                    <span class="fs-3 text-white" role="button">★</span>
+                                    <span class="fs-3 text-white" role="button">★</span>
+                                    <span class="fs-3 text-white" role="button">★</span>
+                                </div>
                             </div>
 
                             <div class="mb-3">
