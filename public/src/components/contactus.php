@@ -3,31 +3,31 @@
         <div class="d-flex flex-column flex-lg-row gap-5 mt-4 ps-5 pe-5">
             <!-- Contact Form -->
             <div class="flex-fill text-primary">
-                <h1>Contact Us</h1>
-                <p class="fs-5">
+                <h1 data-aos="fade-up" data-aos-duration="1000">Contact Us</h1>
+                <p class="fs-5" data-aos="fade-up" data-aos-duration="1500">
                     We'd love to hear from you! Whether you're interested in investing, purchasing a lot, or simply learning more about Bahile Dreamland Estates, feel free to reach out:
                 </p>
                 <form class="row g-3">
-                    <div class="col-md-6">
+                    <div class="col-md-6" data-aos="fade-up" data-aos-duration="1500">
                         <label for="inputName" class="form-label">Full Name</label>
                         <input type="text" class="form-control" id="inputName" placeholder="Full name">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6" data-aos="fade-up" data-aos-duration="1500">
                         <label for="inputEmail" class="form-label">Email</label>
                         <input type="email" class="form-control" id="inputEmail" placeholder="Email">
                     </div>
 
-                    <div class="col-12">
+                    <div class="col-12" data-aos="fade-up" data-aos-duration="1500">
                         <label for="inputAbout" class="form-label">About</label>
                         <input type="text" class="form-control" id="inputAbout" placeholder="About">
                     </div>
 
-                    <div class="col-12">
+                    <div class="col-12" data-aos="fade-up" data-aos-duration="1500">
                         <label for="inputMessage" class="form-label">Message</label>
                         <textarea class="form-control" id="message" placeholder="Message..." rows="3"></textarea>
                     </div>
 
-                    <div class="col-12 py-3">
+                    <div class="col-12 py-3" data-aos="fade-up" data-aos-duration="1500">
                         <button type="submit" class="btn btn-primary w-50">Send</button>
                     </div>
                 </form>
@@ -35,7 +35,7 @@
 
             <!-- card -->
             <div style="min-width: 350px;">
-                <div class="card rounded-4 shadow-lg feedback-card text-white">
+                <div class="card rounded-4 shadow-lg feedback-card text-white" data-aos="flip-right" data-aos-duration="2500">
                     <div class="card-body">
                         <h4 class="card-title text-center">Feedback</h4>
                         <p class="card-text text-center">
@@ -83,7 +83,7 @@
 
     <div class="d-flex gap-3 flex-wrap w-100">
         <!-- Phone Card -->
-        <div class="flex-fill">
+        <div class="flex-fill" data-aos="fade-up" data-aos-duration="1000">
             <div class="card bg-primary text-white rounded-4 shadow-sm text-center h-100">
             <div class="card-body">
                 <div class="fs-1">
@@ -96,7 +96,7 @@
         </div>
 
         <!-- Email Card -->
-        <div class="flex-fill">
+        <div class="flex-fill" data-aos="fade-up" data-aos-duration="1500">
             <div class="card bg-primary text-white rounded-4 shadow-sm text-center h-100">
             <div class="card-body">
                 <div class="fs-1">
@@ -109,7 +109,7 @@
         </div>
 
         <!-- Address Card -->
-        <div class="flex-fill">
+        <div class="flex-fill" data-aos="fade-up" data-aos-duration="2000">
             <div class="card bg-primary text-white rounded-4 shadow-sm text-center h-100">
             <div class="card-body">
                 <div class="fs-1">

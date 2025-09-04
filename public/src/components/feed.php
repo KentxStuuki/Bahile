@@ -2,15 +2,15 @@
 
 <section class="py-5 feedback" 
   style="background: url('../main/images/feedback_section/feedback_background.jpg') no-repeat center center/cover;
-  width: 100%;">
+  width: 100%;" data-aos="fade-up" data-aos-duration="1000">
   
   <!-- Header Card -->
 <div class="container">
   <div class="row justify-content-center">
     <div class="col-lg-9 col-sm-12 col-md-9">
-      <div class="card shadow-lg rounded-4 px-2 py-3 text-center" style="color:#3E4095">
-        <h2 class="fw-semibold display-5">Feedback</h2>
-        <p class="fs-4 mb-0">
+      <div class="card shadow-lg rounded-4 px-2 py-3 text-center" style="color:#3E4095" data-aos="fade-up" data-aos-duration="1000">
+        <h2 class="fw-semibold display-5" data-aos="fade-up" data-aos-duration="1500">Feedback</h2>
+        <p class="fs-4 mb-0" data-aos="fade-up" data-aos-duration="1500">
           Your thoughts and experiences that help us improve our community and services.
         </p>
       </div>
@@ -24,7 +24,7 @@
     <div class="row justify-content-center g-5" style ="margin-top: 60px;">
 
    <div class="col-12 col-sm-10 col-md-6 col-lg-4 ">
-  <div class="card shadow-sm rounded-4 p-4 h-100">
+  <div class="card shadow-sm rounded-4 p-4 h-100" data-aos="fade-up" data-aos-duration="1000">
     
     <!-- Header Row -->
     <div class="d-flex justify-content-between align-items-start">
@@ -56,7 +56,7 @@
 
 
       <div class="col-12 col-sm-10 col-md-6 col-lg-4">
-  <div class="card shadow-sm rounded-4 p-4 h-100">
+  <div class="card shadow-sm rounded-4 p-4 h-100" data-aos="fade-up" data-aos-duration="1500">
     
     <!-- Header Row -->
     <div class="d-flex justify-content-between align-items-start">
@@ -86,7 +86,7 @@
 
 
       <div class="col-12 col-sm-10 col-md-6 col-lg-4">
-  <div class="card shadow-sm rounded-4 p-4 h-100">
+  <div class="card shadow-sm rounded-4 p-4 h-100" data-aos="fade-up" data-aos-duration="2000">
     
     <!-- Header Row -->
     <div class="d-flex justify-content-between align-items-start">

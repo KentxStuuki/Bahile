@@ -1,8 +1,10 @@
 <section class="container text-primary">
     <div class="text-center my-4 fs-5">
-        <img src="../main/project_components_image/pd.png" alt="" class="img-fluid" style="max-width: 250px; height: auto;">
-        <h1 class="display-5">Project Components</h1>
-        <p>Bahile Dreamland Estates offers well-structured features <br> to ensure a complete living experience:</p>
+        <img src="../main/project_components_image/pd.png" alt="" class="img-fluid" style="max-width: 250px; height: auto;" data-aos="fade-up" data-aos-duration="1000">
+        <h1 class="display-5" data-aos="fade-up" data-aos-duration="1500">Project Components</h1>
+        <div data-aos="fade-up" data-aos-duration="2000">
+          <p>Bahile Dreamland Estates offers well-structured features <br> to ensure a complete living experience:</p>
+        </div>
     </div>
     <div id="project_components_content" class="position-relative"></div>
 </section>
@@ -11,7 +13,7 @@
     projContent.innerHTML = `
         <div class="owl-carousel owl-theme">
             ${features.map(feature => `
-                <div class="item p-4 d-flex flex-column justify-content-between" style="height: 500px;">
+                <div class="item p-4 d-flex flex-column justify-content-between" style="height: 500px;" data-aos="fade-up" data-aos-duration="2000">
                   <div>
                     <img src="${feature.imgpath}" 
                         alt="${feature.title}" 
@@ -26,7 +28,7 @@
             `).join('')}
         </div>
         <div class="owl-controls">
-            <div class="custom-nav owl-nav text-white align-items-center"></div>
+            <div class="custom-nav owl-nav text-white align-items-center" data-aos="fade-up" data-aos-duration="2000"></div>
         </div>
     `;
 $(".owl-carousel").owlCarousel({
