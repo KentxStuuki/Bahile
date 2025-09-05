@@ -188,4 +188,16 @@ $headings-font-family: "Times New Roman", Times, serif;
     padding: 0.5rem 2rem;
     font-size: 1rem;
   }
+
+  .Card-container{
+    width: 80%!important;
+  }
+
+  .feedback-card{
+    width: 100% !important;
+  }
+
+  .card-body p{
+    font-size: 1rem !important;
+  }
 }
