@@ -25,7 +25,7 @@
     <div class="icon-row-wrapper position-relative pt-5">
         <div class="container-fluid position-absolute top-50 start-50 translate-middle custom-container" style="z-index: 10;">
             <div class="row text-primary">
-                <div class="col-md-2 offset-md-1 text-cente" data-aos="fade-up" data-aos-duration="2500">
+                <div class="col-md-2 offset-md-1 text-center" data-aos="fade-up" data-aos-duration="2500">
                     <div class="position-relative bg-white rounded shadow-lg pt-5 mb-3 px-2 h-100">
                         <div class="icon-services position-absolute top-0 start-50 translate-middle">
                             <img src="../main/images/intro_section/map.png" alt="Map Location" style="width: 40px;">
