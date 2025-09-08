@@ -12160,4 +12160,18 @@ textarea.form-control-lg {
   .card-body p {
     font-size: 1rem !important;
   }
+}
+/* Default: mobile-friendly */
+.Card-container {
+  min-width: 280px;
+  max-width: 100%;
+}
+
+/* Tablet (768px–991px) make card wider */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .Card-container {
+    min-width: 600px; /* wider for tablet */
+    max-width: 90%; /* keeps it responsive */
+    margin: 0 auto; /* center it */
+  }
 }/*# sourceMappingURL=main.css.map */

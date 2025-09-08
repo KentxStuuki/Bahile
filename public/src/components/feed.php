@@ -1,8 +1,8 @@
 
 
-<section class="py-5 feedback" 
+<section class="feedback" 
   style="background: url('../main/images/feedback_section/feedback_background.jpg') no-repeat center center/cover;
-  width: 100%;" data-aos="fade-up" data-aos-duration="1000">
+  width: 100%; padding: 6% 0;" data-aos="fade-up" data-aos-duration="1000">
   
   <!-- Header Card -->
 <div class="container">
@@ -24,7 +24,7 @@
     <div class="row justify-content-center g-5" style ="margin-top: 60px;">
 
    <div class="col-12 col-sm-10 col-md-6 col-lg-4 ">
-  <div class="card shadow-sm rounded-4 p-4 h-100" data-aos="fade-up" data-aos-duration="1000">
+  <div class="card shadow-sm rounded-4 p-4  mt-5" data-aos="fade-up" data-aos-duration="1000" style="height: 90%;">
     
     <!-- Header Row -->
     <div class="d-flex justify-content-between align-items-start">
@@ -56,7 +56,7 @@
 
 
       <div class="col-12 col-sm-10 col-md-6 col-lg-4">
-  <div class="card shadow-sm rounded-4 p-4 h-100" data-aos="fade-up" data-aos-duration="1500">
+  <div class="card shadow-sm rounded-4 p-4 mt-5" data-aos="fade-up" data-aos-duration="1500" style="height: 90%;">
     
     <!-- Header Row -->
     <div class="d-flex justify-content-between align-items-start">
@@ -86,7 +86,7 @@
 
 
       <div class="col-12 col-sm-10 col-md-6 col-lg-4">
-  <div class="card shadow-sm rounded-4 p-4 h-100" data-aos="fade-up" data-aos-duration="2000">
+  <div class="card shadow-sm rounded-4 p-4 mt-5" data-aos="fade-up" data-aos-duration="2000" style="height: 90%;">
     
     <!-- Header Row -->
     <div class="d-flex justify-content-between align-items-start">

@@ -22,7 +22,7 @@
     <title>Bahile</title>
     
 </head>
-<body data-bs-spy="scroll" data-bs-target="#nav-tabs" data-bs-offset="0" data-bs-smooth-scroll="true" tabindex="0">
+<body data-bs-spy="scroll" data-bs-target="#nav-tabs" data-bs-offset="0" data-bs-smooth-scroll="true" tabindex="0" >
     <!-- Navbar -->
     <section class="sticky-top bg-white">
         <?php include 'components/navbar.php'?>
