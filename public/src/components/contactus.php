@@ -34,7 +34,7 @@
             </div>
 
             <!-- card -->
-            <div class="Card-container" style="min-width: 300px;">
+            <div class="Card-container" style="min-width: 280px;">
                 <div class="card rounded-4 shadow-lg feedback-card text-white" data-aos="flip-right" data-aos-duration="2500">
                     <div class="card-body">
                         <h4 class="card-title text-center">Feedback</h4>

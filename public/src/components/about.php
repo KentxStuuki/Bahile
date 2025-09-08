@@ -1,5 +1,5 @@
 <div class="about_section d-flex justify-content-center align-items-center mt-2" data-aos="fade-up" data-aos-duration="1000">
-    <div class="text-primary text-center fs-1 bg-white py-2 px-5 rounded-pill" data-aos="fade-up" data-aos-duration="1500">About Us</div>
+    <div class="text-primary text-center fs-1 bg-white py-2 px-5 rounded-pill" data-aos="fade-up" data-aos-duration="1500"><h1>About Us</h1></div>
 </div>
 
 <div class="vision_section pt-5">

@@ -30,7 +30,7 @@
                         <div class="icon-services position-absolute top-0 start-50 translate-middle">
                             <img src="../main/images/intro_section/map.png" alt="Map Location" style="width: 40px;">
                         </div>
-                        <p class="mb-0 fs-6">Prime location in Bahile, Puerto Princesa City, Palawan</p>
+                        <p class="mb-0 fs-6 text-center">Prime location in Bahile, Puerto Princesa City, Palawan</p>
                     </div>
                 </div>
 
